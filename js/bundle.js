@@ -2882,7 +2882,7 @@ var widgetsDatepicker = $.datepicker;
 
 (function($) {
   $('.text-input--date-picker').datepicker();
-})(jQuery)
+})(jQuery);
 
 /**
  * Decision Tree module will generate a series of questions and answer
@@ -2890,12 +2890,12 @@ var widgetsDatepicker = $.datepicker;
  * reaches the end of the series, where they can be shown some other content.
  */
 (function( $, config ) {
-
   var $dt = $('#decisionTree');
   var $title = $dt.find('.decisionTree--title');
   var $content = $dt.find('.decisionTree--content');
 
   var decisionTree = {
+    
     // Placeholder for the current question.
     currentQuestion: null,
 
